@@ -1,0 +1,90 @@
+*{
+    width: 1;
+}
+
+
+body {
+    background-image:linear-gradient(90deg, purple, blue); 
+
+}
+
+
+header {
+    /*background-color: black;*/
+
+    margin: -10px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;   /*alinha na horizontal*/
+    justify-content: center; /*alinhar verticalmente */
+
+    /*Width: = Largura
+    /*Heith: = Altura
+    /* ATENÇÃO NESSA PARTE, ALINHAMENTO DE ELEMENTOS NO CSS ACIMA!!!*/
+    /* ATENÇÃO NESSA PARTE, ALINHAMENTO DE ELEMENTOS NO CSS ACIMA!!!*/
+}
+
+header img {
+    margin-top: 10px;
+    border: 2px solid white;
+    width: 300px;
+    border-radius: 35px;
+}
+
+header img:hover {
+    width: 400px;
+    transition: 3s;
+}
+
+
+header nav ul li {
+    list-style:none;
+    color: white;
+    text-align: center;
+    font-size: 8mm;
+    display:inline;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 20%;
+}
+
+
+header nav ul a {
+    text-decoration: none;
+}
+
+header nav {
+    text-align: center;
+    padding: 12px;
+}
+
+header nav ul li:hover {
+    color: black;
+    background-color:  white;
+    transition: 1s;
+    padding: 17px;
+
+}
+main h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.container-descricao img {
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 20px;
+    box-shadow: 5px 10px 30px black;
+}
+
+.container-descricao {
+     display: flex;
+}
+
+.paragrafo-descricao {
+    text-align: center;
+    font-size: 21px;
+    padding: 20px;
+}
